@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Visa Trans" verbose="1" >
+    <listeners>
+        
+        <listener class-name="listerner.Transformer" />
+    </listeners>
+
+    <test name="visa test">
+        <classes>
+            <class name="runner.testngrunner"/>
+        </classes>
+    </test>
+</suite>
